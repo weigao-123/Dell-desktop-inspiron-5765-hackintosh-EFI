@@ -1,6 +1,6 @@
 # Dell-desktop-inspiron-5765-hackintosh-EFI
 
-THis is for Dell desktop inspiron 5765 hackintosh, and I only tested MACOS High Sierra 10.13.6 (17G65)
+This is for Dell desktop inspiron 5765 hackintosh, and I only tested MACOS High Sierra 10.13.6 (17G65)
 
 Hardware:
 Motherboard: X370
