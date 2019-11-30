@@ -1,0 +1,620 @@
+0:100  0:100  MemLog inited, TSC freq: 3200008000
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 27.11.2019,  15:40:02 (GMT)
+0:100  0:000  Starting Clover revision: 5099 (master, commit 6852bd3a) on Dell Inc. EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000) @CB4C6998
+0:100  0:000  SelfDirPath = \efi\boot
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = CHANNEL A DIMM 1
+0:100  0:000  SmbiosTable.Type17->Vendor = Hynix
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 71D32927
+0:100  0:000  SmbiosTable.Type17->PartNumber = HMA81GU6AFR8N-UH    
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/2, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 2400MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = CHANNEL B DIMM 2
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 0E1C83F6
+0:100  0:000  SmbiosTable.Type17->PartNumber = KHX2400C15/8G       
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Inspiron 5675' with board '07PR60'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 68747541 Model=800F11
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = AMD Ryzen 5 1400 Quad-Core Processor           
+0:100  0:000  	Looking to disable C1E if is already enabled by the BIOS:
+0:100  0:000  CurrentSpeed: 3200
+0:100  0:000  maxratio 64
+0:100  0:000  cpudid_zen 8
+0:100  0:000  FSBFrequency = 50 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 32.0/14
+0:100  0:000  Turbo: 0/0/0/0
+0:100  0:000  Features: 0x178BFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3200 MHz
+0:100  0:000  TSC: 3200 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  GOP found at: <null string>
+0:100  0:000  PCI (00|00:00.00) : 1022 1450 class=060000
+0:100  0:000  PCI (00|00:00.02) : 1022 1451 class=080600
+0:100  0:000  PCI (00|00:01.00) : 1022 1452 class=060000
+0:100  0:000  PCI (00|00:01.03) : 1022 1453 class=060400
+0:100  0:000  PCI (00|01:00.00) : 1022 43B9 class=0C0330
+0:100  0:000  PCI (00|01:00.01) : 1022 43B5 class=010601
+0:100  0:000  PCI (00|01:00.02) : 1022 43B0 class=060400
+0:100  0:000  PCI (00|02:00.00) : 1022 43B4 class=060400
+0:100  0:000  PCI (00|02:01.00) : 1022 43B4 class=060400
+0:100  0:000  PCI (00|04:00.00) : 168C 003E class=028000
+0:100  0:000   - WIFI: Vendor=Atheros
+0:100  0:000  PCI (00|02:02.00) : 1022 43B4 class=060400
+0:100  0:000  PCI (00|05:00.00) : 10EC 525A class=FF0000
+0:100  0:000  PCI (00|02:03.00) : 1022 43B4 class=060400
+0:100  0:000  PCI (00|02:04.00) : 1022 43B4 class=060400
+0:100  0:000  PCI (00|00:02.00) : 1022 1452 class=060000
+0:100  0:000  PCI (00|00:03.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:03.01) : 1022 1453 class=060400
+0:101  0:000  PCI (00|08:00.00) : 1002 67DF class=030000
+0:101  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+0:101  0:000  PCI (00|08:00.01) : 1002 AAF0 class=040300
+0:101  0:000   - HDMI Audio: 
+0:101  0:000  PCI (00|00:04.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:07.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:07.01) : 1022 1454 class=060400
+0:101  0:000  PCI (00|09:00.00) : 1022 145A class=130000
+0:101  0:000  PCI (00|09:00.02) : 1022 1456 class=108000
+0:101  0:000  PCI (00|09:00.03) : 1022 145C class=0C0330
+0:101  0:000  PCI (00|00:08.00) : 1022 1452 class=060000
+0:101  0:000  PCI (00|00:08.01) : 1022 1454 class=060400
+0:101  0:000  PCI (00|0A:00.00) : 1022 1455 class=130000
+0:101  0:000  PCI (00|0A:00.02) : 1022 7901 class=010601
+0:101  0:000  PCI (00|0A:00.03) : 1022 1457 class=040300
+0:101  0:000  PCI (00|00:14.00) : 1022 790B class=0C0500
+0:101  0:000  PCI (00|00:14.03) : 1022 790E class=060100
+0:101  0:000  PCI (00|00:18.00) : 1022 1460 class=060000
+0:101  0:000  PCI (00|00:18.01) : 1022 1461 class=060000
+0:101  0:000  PCI (00|00:18.02) : 1022 1462 class=060000
+0:101  0:000  PCI (00|00:18.03) : 1022 1463 class=060000
+0:101  0:000  PCI (00|00:18.04) : 1022 1464 class=060000
+0:101  0:000  PCI (00|00:18.05) : 1022 1465 class=060000
+0:101  0:000  PCI (00|00:18.06) : 1022 1466 class=060000
+0:101  0:000  PCI (00|00:18.07) : 1022 1467 class=060000
+0:101  0:000  === [ GetDefaultSettings ] ================================
+0:101  0:000  Clover load options size = 0 bytes
+0:112  0:010  EFI\CLOVER\config.plist loaded: Success
+0:113  0:001  === [ GetListOfThemes ] ===================================
+0:118  0:004  === [ Found config plists ] ===============================
+0:118  0:000  - config.plist
+0:118  0:000  === [ GetEarlyUserSettings ] ==============================
+0:118  0:000  timeout set to -1
+0:118  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:118  0:000  KernelToPatch: 60 requested
+0:118  0:000   - [00]: Disable panic kext logging on 10.13.x Release kernel :: MatchOS: 10.13.x :: data len: 6
+0:118  0:000   - [01]: Disable panic kext logging on 10.14.4+ Release kernel :: MatchOS: 10.14.x,10.15.x :: data len: 6
+0:118  0:000   - [02]: algrey - commpage_populate -remove rdmsr :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 7
+0:118  0:000   - [03]: algrey - cpu_topology_sort -disable _x86_validate_topology :: MatchOS: 10.13.x :: data len: 6
+0:118  0:000   - [04]: algrey - cpu_topology_sort -disable _x86_validate_topology (10.14.4+) :: MatchOS: 10.14.x :: data len: 5
+0:118  0:000   - [05]: xlnc - cpu_topology_sort -disable _x86_validate_topology :: MatchOS: 10.15.x :: data len: 6
+0:118  0:000   - [06]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 73
+0:118  0:000   - [07]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 73
+0:118  0:000   - [08]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.14.6 :: data len: 73
+0:118  0:000   - [09]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 73
+0:118  0:000   - [10]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.15.0 :: data len: 21
+0:118  0:000   - [11]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.15.1 :: data len: 21
+0:118  0:000   - [12]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 4 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 10
+0:118  0:000   - [13]: algrey - cpuid_set_cache_info - don't set cpuid_cores_per_package :: MatchOS: 10.13.x,10.14.x :: data len: 5
+0:118  0:000   - [14]: xlnc - cpuid_set_cache_info - don't set cpuid_cores_per_package :: MatchOS: 10.15.x :: data len: 5
+0:118  0:000   - [15]: xlnc - cpuid_set_cache_info - skip cpuid_cores_per_package test :: MatchOS: 10.15.x :: data len: 16
+0:118  0:000   - [16]: algrey - cpuid_set_generic_info - remove wrmsr :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 11
+0:118  0:000   - [17]: algrey - cpuid_set_generic_info - set microcode=186 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 7
+0:118  0:000   - [18]: algrey - cpuid_set_generic_info - set flag=1 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 13
+0:118  0:000   - [19]: algrey - cpuid_set_generic_info - disable check to allow leaf7 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 4
+0:118  0:000   - [20]: algrey - cpuid_set_info - GenuineIntel to AuthenticAMD  :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 13
+0:118  0:000   - [21]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 11
+0:118  0:000   - [22]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 11
+0:118  0:000   - [23]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.14.6 :: data len: 11
+0:118  0:000   - [24]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 11
+0:118  0:000   - [25]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.15.0 :: data len: 11
+0:118  0:000   - [26]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.15.1 :: data len: 11
+0:118  0:000   - [27]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 140
+0:118  0:000   - [28]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 140
+0:118  0:000   - [29]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.14.6 :: data len: 100
+0:118  0:000   - [30]: xlnc - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 100
+0:118  0:000   - [31]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: MatchOS: 10.15.0 :: data len: 21
+0:118  0:000   - [32]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: MatchOS: 10.15.1 :: data len: 21
+0:118  0:000   - [33]: xlnc - cpuid_set_info - cores and threads calculations :: MatchOS: 10.15.0,10.15.1 :: data len: 65
+0:118  0:000   - [34]: algrey - i386_init - remove rdmsr (x3) :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 42
+0:118  0:000   - [35]: algrey - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.13.6 :: data len: 11
+0:118  0:000   - [36]: algrey - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.14.6 :: data len: 11
+0:118  0:000   - [37]: xlnc - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.15.0 :: data len: 11
+0:118  0:000   - [38]: xlnc - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.15.1 :: data len: 11
+0:118  0:000   - [39]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 34
+0:118  0:000   - [40]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 34
+0:118  0:000   - [41]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.14.6 :: data len: 34
+0:118  0:000   - [42]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 34
+0:118  0:000   - [43]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.15.0 :: data len: 34
+0:118  0:000   - [44]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.15.1 :: data len: 34
+0:118  0:000   - [45]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 14
+0:118  0:000   - [46]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 14
+0:118  0:000   - [47]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.14.6 :: data len: 14
+0:118  0:000   - [48]: xlnc - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 14
+0:118  0:000   - [49]: xlnc - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.15.0,10.15.1 :: data len: 7
+0:118  0:000   - [50]: algrey - lapic_init - remove version check and panic :: MatchOS: 10.13.x,10.14.x :: data len: 8
+0:118  0:000   - [51]: xlnc - lapic_init - remove version check and panic :: MatchOS: 10.15.x :: data len: 5
+0:118  0:000   - [52]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 9
+0:118  0:000   - [53]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 9
+0:118  0:000   - [54]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.14.6 :: data len: 9
+0:118  0:000   - [55]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 9
+0:118  0:000   - [56]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.15.0 :: data len: 9
+0:118  0:000   - [57]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.15.1 :: data len: 9
+0:118  0:000   - [58]: algrey - mtrr_update_action - fix PAT :: MatchOS: 10.13.x :: data len: 19
+0:118  0:000   - [59]: algrey - mtrr_update_action - fix PAT (x2) (10.14.4+) :: MatchOS: 10.14.x,10.15.x :: data len: 19
+0:118  0:000  Default theme: embedded
+0:118  0:000  Hiding entries with string Preboot
+0:118  0:000  Hiding entries with string Legacy
+0:118  0:000  === [ LoadDrivers ] =======================================
+0:128  0:009  Loading ApfsDriverLoader.efi  status=Success
+0:131  0:002   - driver needs connecting
+0:131  0:000  Loading AptioInputFix.efi  status=Success
+0:134  0:002  Loading AudioDxe.efi  status=Success
+0:142  0:008   - driver needs connecting
+0:142  0:000  Loading DataHubDxe.efi  status=Success
+0:145  0:002  Loading Fat.efi  status=Success
+0:148  0:003   - driver needs connecting
+0:148  0:000  Loading FSInject.efi  status=Success
+0:151  0:002  Loading SMCHelper.efi  status=Success
+0:158  0:007  Loading VBoxHfs.efi  status=Success
+0:161  0:002   - driver needs connecting
+0:161  0:000  Loading AptioMemoryFix.efi  status=Success
+0:169  0:007  4 drivers needs connecting ...
+0:169  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:169  0:000  APFS driver loaded
+0:169  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+5:629  5:459  === [ InitScreen ] ========================================
+5:629  0:000  Console modes reported: 9, available modes:
+5:629  0:000   - [01]: 80x25
+5:629  0:000   - [02]: 80x50
+5:629  0:000   - [03]: 80x25
+5:629  0:000   - [04]: 240x56
+5:629  0:000   - [05]: 100x31
+5:629  0:000   - [06]: 128x40 (current mode)
+5:629  0:000   - [07]: 160x53
+5:629  0:000   - [08]: 175x55
+5:629  0:000   - [09]: 160x50
+5:629  0:000  SetMaxResolution: found best mode 0: 1920x1080
+5:629  0:000   - already set
+5:629  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+5:629  0:000  === [ GetMacAddress ] =====================================
+5:629  0:000   get legacy LAN MAC, 0 card found
+5:629  0:000  === [ ScanSPD ] ===========================================
+5:629  0:000  === [ GetAcpiTablesList ] =================================
+5:630  0:000  Get Acpi Tables List from RSDT:
+5:630  0:000   - [00]: FACP  WN09    len=268
+5:630  0:000   - [01]: SSDT  WN09    len=35916
+5:630  0:000   - [02]: UEFI  WN09    len=566
+5:630  0:000   - [03]: UEFI  WN09    len=66
+5:630  0:000   - [04]: MSDM  WN09    len=85
+5:630  0:000   - [05]: SSDT  WN09    len=252
+5:630  0:000   - [06]: SSDT  WN09    len=3445
+5:630  0:000   - [07]: SSDT  WN09    len=36
+5:630  0:000   - [08]: SSDT  WN09    len=4228
+5:630  0:000   - [09]: CRAT  WN09    len=2128
+5:630  0:000   - [10]: CDIT  WN09    len=41
+5:630  0:000   - [11]: ASF!  WN09    len=165
+5:630  0:000   - [12]: BOOT  WN09    len=40
+5:630  0:000   - [13]: HPET  WN09    len=56
+5:630  0:000   - [14]: APIC  WN09    len=312
+5:630  0:000   - [15]: MCFG  WN09    len=60
+5:630  0:000   - [16]: WDAT  WN09    len=380
+5:630  0:000   - [17]: WDRT  WN09    len=71
+5:630  0:000   - [18]: WSMT  WN09    len=40
+5:630  0:000   - [19]: SSDT  WN09    len=19258
+5:630  0:000   - [20]: VFCT  WN09    len=60548
+5:630  0:000   - [21]: SSDT  WN09    len=1133
+5:630  0:000   - [22]: TPM2  WN09    len=52
+5:630  0:000   - [23]: IVRS  WN09    len=208
+5:630  0:000   - [24]: SSDT  WN09    len=248
+5:630  0:000   - [25]: SSDT  WN09    len=738
+5:630  0:000   - [26]: SSDT  WN09    len=2924
+5:630  0:000   - [27]: SSDT  WN09    len=345
+5:630  0:000   - [28]: SSDT  WN09    len=5732
+5:630  0:000   - [29]: FPDT  WN09    len=68
+5:630  0:000   - [30]: BGRT  WN09    len=56
+5:630  0:000  Calibrated TSC Frequency = 3200008000 = 3200MHz
+5:630  0:000  === [ GetUserSettings ] ===================================
+5:630  0:000  USB FixOwnership: no
+5:630  0:000   - final DSDT Fix mask=00000000
+5:630  0:000  PatchesDSDT: 1 requested
+5:630  0:000   - [00]: (change PNP0C09 to PNPFFFF (prevent EC)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+5:630  0:000  EnableC6: no
+5:630  0:000  Using ProductName from config: iMacPro1,1
+5:630  0:000  Using latest BiosVersion from clover
+5:630  0:000  BiosVersion: IMP11.88Z.F000.B00.1911080422
+5:630  0:000  BiosReleaseDate: 11/08/2019
+5:630  0:000  Using latest EfiVersion from clover: 1037.60.55.0.0
+5:630  0:000  Using FirmwareFeatures from config: 0xFD8FF53F
+5:630  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+5:630  0:000  Board-ID set from config as Mac-7BA5B2D9E42DDD94
+5:630  0:000  BoardType: 0xA
+5:630  0:000  ChassisType: 0x9
+5:630  0:000  === [ Found DSDT tables ] =================================
+6:041  0:410  === [ ScanVolumes ] =======================================
+6:041  0:000  Found 9 volumes with blockIO
+6:041  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)
+6:041  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(1,GPT,3FDCB3E7-8BA7-43BF-A21D-C268AF9C3BB2,0x1000,0xC7000)
+6:042  0:000          Result of bootcode detection: bootable Windows (win)
+6:043  0:001  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(2,GPT,749EB185-F945-4887-BFCE-1BEB9EB8CB0C,0xC8000,0x40000)
+6:044  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:044  0:000          hiding this volume
+6:044  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(3,GPT,05474E09-F3F2-41E2-A69A-D1628DC339CA,0x108000,0x25801000)
+6:046  0:002          Result of bootcode detection: bootable Windows (vista,win)
+6:047  0:000          hiding this volume
+6:047  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(4,GPT,2B99E6E9-80E4-4A3A-B730-337E71849BAD,0x25909000,0x4EDFD000)
+6:047  0:000          Result of bootcode detection: bootable Windows (vista,win)
+6:047  0:000          hiding this volume
+6:047  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0x0,0x0)
+6:047  0:000          Found optical drive
+6:047  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)
+6:048  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:048  0:000          USB volume
+6:048  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+6:049  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:049  0:000          USB volume
+6:049  0:000          This is SelfVolume !!
+6:049  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+6:050  0:001          USB volume
+6:050  0:000  found 2 handles with audio
+6:050  0:000  No AudioIoDevice stored
+6:050  0:000  no stored audio parameters
+6:050  0:000  === [ InitTheme ] =========================================
+6:050  0:000  use daylight theme
+6:050  0:000   using embedded theme
+6:050  0:000  got embedded sound
+6:050  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+6:050  0:000  output to channel 0 with volume 70, len=25600
+6:050  0:000   sound channels=2 bits=16 freq=8000
+6:051  0:000  sound converted to 48kHz
+6:051  0:000  not found AudioIo to play
+6:051  0:000  sound play end with status=Not Found
+6:051  0:000  Using embedded font: Success
+6:052  0:000  theme inited
+6:052  0:000  Chosen embedded theme
+6:052  0:000  after NVRAM boot-args=-v npci=0x2000 debug=0x100 keepsyms=1
+6:052  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+6:052  0:000  found AppleSMC protocol
+6:056  0:003  Registered 16 SMC keys
+6:056  0:000  === [ ScanLoader ] ========================================
+6:056  0:000  - [01]: 'EFI'
+6:056  0:000  - [07]: 'CLOVER'
+6:056  0:000          AddLoaderEntry for Volume Name=CLOVER
+6:056  0:000          skipped because entry is hidden
+6:056  0:000  - [08]: 'OS X Base System'
+6:069  0:013          AddLoaderEntry for Volume Name=OS X Base System
+6:080  0:010  Scanning legacy ...
+6:080  0:000   1: 'EFI' (win) add legacy
+6:081  0:001   added 'Boot Windows from EFI' OSType=2 Icon=win
+6:081  0:000   3: 'Legacy HD3' (vista,win) hidden
+6:081  0:000   4: 'Legacy HD4' (vista,win) hidden
+6:081  0:000  === [ AddCustomTool ] =====================================
+6:081  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+6:081  0:000  Checking EFI partition Volume 1 for Clover
+6:082  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+6:082  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)\System\Library\CoreServices\boot.efii
+6:082  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)'
+6:082  0:000    - LoaderPath: '\System\Library\CoreServices\boot.efi'
+6:082  0:000  === [ FindStartupDiskVolume ] =============================
+6:082  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+6:082  0:000     - searching for that partition and loader '\System\Library\CoreServices\boot.efi'
+6:082  0:000      - found entry 0. 'Boot macOS Install from OS X Base System', Volume 'OS X Base System', '\System\Library\CoreServices\boot.efi'
+6:082  0:000  Boot redirected to Entry 0. 'Boot macOS Install from OS X Base System'
+6:082  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+6:082  0:000  GUI ready
+24:052  17:969  exit from MainMenu 2
+24:137  0:085  ReinitSelfLib after theme change
+24:137  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+24:137  0:000  === [ ScanVolumes ] =======================================
+24:137  0:000  Found 9 volumes with blockIO
+24:137  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)
+24:137  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(1,GPT,3FDCB3E7-8BA7-43BF-A21D-C268AF9C3BB2,0x1000,0xC7000)
+24:137  0:000          Result of bootcode detection: bootable Windows (win)
+24:137  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(2,GPT,749EB185-F945-4887-BFCE-1BEB9EB8CB0C,0xC8000,0x40000)
+24:138  0:000          Result of bootcode detection: bootable unknown (legacy)
+24:138  0:000          hiding this volume
+24:138  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(3,GPT,05474E09-F3F2-41E2-A69A-D1628DC339CA,0x108000,0x25801000)
+24:138  0:000          Result of bootcode detection: bootable Windows (vista,win)
+24:138  0:000          hiding this volume
+24:138  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(4,GPT,2B99E6E9-80E4-4A3A-B730-337E71849BAD,0x25909000,0x4EDFD000)
+24:138  0:000          Result of bootcode detection: bootable Windows (vista,win)
+24:138  0:000          hiding this volume
+24:138  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0x0,0x0)
+24:138  0:000          Found optical drive
+24:138  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)
+24:140  0:002          Result of bootcode detection: bootable unknown (legacy)
+24:140  0:000          USB volume
+24:140  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+24:141  0:001          Result of bootcode detection: bootable unknown (legacy)
+24:141  0:000          USB volume
+24:141  0:000          This is SelfVolume !!
+24:141  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+24:143  0:001          USB volume
+24:143  0:000  found 2 handles with audio
+24:143  0:000  No AudioIoDevice stored
+24:143  0:000  no stored audio parameters
+24:143  0:000  theme inited
+24:143  0:000  Chosen embedded theme
+24:143  0:000  after NVRAM boot-args=-v npci=0x2000 debug=0x100 keepsyms=1
+24:143  0:000  === [ ScanLoader ] ========================================
+24:143  0:000  - [01]: 'EFI'
+24:143  0:000  - [07]: 'CLOVER'
+24:143  0:000          AddLoaderEntry for Volume Name=CLOVER
+24:143  0:000          skipped because entry is hidden
+24:143  0:000  - [08]: 'OS X Base System'
+24:147  0:003          AddLoaderEntry for Volume Name=OS X Base System
+24:156  0:009  Scanning legacy ...
+24:156  0:000   1: 'EFI' (win) add legacy
+24:156  0:000   added 'Boot Windows from EFI' OSType=2 Icon=win
+24:156  0:000   3: 'Legacy HD3' (vista,win) hidden
+24:156  0:000   4: 'Legacy HD4' (vista,win) hidden
+24:156  0:000  === [ AddCustomTool ] =====================================
+24:156  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+24:156  0:000  Checking EFI partition Volume 1 for Clover
+24:156  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+24:156  0:000  === [ FindStartupDiskVolume ] =============================
+24:156  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+24:156  0:000     - searching for that partition and loader '\System\Library\CoreServices\boot.efi'
+24:156  0:000      - found entry 0. 'Boot macOS Install from OS X Base System', Volume 'OS X Base System', '\System\Library\CoreServices\boot.efi'
+24:156  0:000  Boot redirected to Entry 0. 'Boot macOS Install from OS X Base System'
+24:156  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+41:081  16:925  exit from MainMenu 2
+41:167  0:085  ReinitSelfLib after theme change
+41:167  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+41:167  0:000  === [ ScanVolumes ] =======================================
+41:167  0:000  Found 9 volumes with blockIO
+41:167  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)
+41:167  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(1,GPT,3FDCB3E7-8BA7-43BF-A21D-C268AF9C3BB2,0x1000,0xC7000)
+41:167  0:000          Result of bootcode detection: bootable Windows (win)
+41:167  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(2,GPT,749EB185-F945-4887-BFCE-1BEB9EB8CB0C,0xC8000,0x40000)
+41:167  0:000          Result of bootcode detection: bootable unknown (legacy)
+41:167  0:000          hiding this volume
+41:167  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(3,GPT,05474E09-F3F2-41E2-A69A-D1628DC339CA,0x108000,0x25801000)
+41:167  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:167  0:000          hiding this volume
+41:167  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x4,0x0,0x0)\HD(4,GPT,2B99E6E9-80E4-4A3A-B730-337E71849BAD,0x25909000,0x4EDFD000)
+41:168  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:168  0:000          hiding this volume
+41:168  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0x0,0x0)
+41:168  0:000          Found optical drive
+41:168  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)
+41:169  0:001          Result of bootcode detection: bootable unknown (legacy)
+41:169  0:000          USB volume
+41:169  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(1,MBR,0x941992D6,0x800,0x64000)
+41:170  0:001          Result of bootcode detection: bootable unknown (legacy)
+41:170  0:000          USB volume
+41:170  0:000          This is SelfVolume !!
+41:170  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+41:172  0:001          USB volume
+41:172  0:000  found 2 handles with audio
+41:172  0:000  No AudioIoDevice stored
+41:172  0:000  no stored audio parameters
+41:172  0:000  theme inited
+41:172  0:000  Chosen embedded theme
+41:172  0:000  after NVRAM boot-args=-v npci=0x2000 debug=0x100 keepsyms=1
+41:172  0:000  === [ ScanLoader ] ========================================
+41:172  0:000  - [01]: 'EFI'
+41:172  0:000  - [07]: 'CLOVER'
+41:172  0:000          AddLoaderEntry for Volume Name=CLOVER
+41:172  0:000          skipped because entry is hidden
+41:172  0:000  - [08]: 'OS X Base System'
+41:176  0:003          AddLoaderEntry for Volume Name=OS X Base System
+41:185  0:009  Scanning legacy ...
+41:185  0:000   1: 'EFI' (win) add legacy
+41:185  0:000   added 'Boot Windows from EFI' OSType=2 Icon=win
+41:185  0:000   3: 'Legacy HD3' (vista,win) hidden
+41:185  0:000   4: 'Legacy HD4' (vista,win) hidden
+41:185  0:000  === [ AddCustomTool ] =====================================
+41:185  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+41:185  0:000  Checking EFI partition Volume 1 for Clover
+41:185  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+41:185  0:000  === [ FindStartupDiskVolume ] =============================
+41:185  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0xF,0x0)\HD(2,MBR,0x941992D6,0x64800,0x1CE7800)
+41:185  0:000     - searching for that partition and loader '\System\Library\CoreServices\boot.efi'
+41:185  0:000      - found entry 0. 'Boot macOS Install from OS X Base System', Volume 'OS X Base System', '\System\Library\CoreServices\boot.efi'
+41:185  0:000  Boot redirected to Entry 0. 'Boot macOS Install from OS X Base System'
+41:185  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+42:488  1:302   boot with args: -v npci=0x2000 debug=0x100 keepsyms=1
+42:488  0:000  exit from MainMenu 3
+42:488  0:000  Boot option Boot0000 not found
+42:488  0:000  === [ StartLoader ] =======================================
+42:488  0:000  Finally: ExternalClock=26MHz BusSpeed=100001kHz CPUFreq=3200MHz PIS: hw.busfrequency=104000000Hz
+42:488  0:000  Loading boot.efi  status=Success
+42:569  0:081  GetOSVersion: 10.13.6 (17G66)
+42:569  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+42:569  0:000  Filtering KernelPatches:
+42:569  0:000   - [00]: Disable panic kext logging on 10.13.x Release kernel :: [OS: 10.13.6 | MatchOS: 10.13.x | MatchBuild: no] ==> disabled by user
+42:569  0:000   - [01]: Disable panic kext logging on 10.14.4+ Release kernel :: [OS: 10.13.6 | MatchOS: 10.14.x,10.15.x | MatchBuild: no] ==> disabled by user
+42:569  0:000   - [02]: algrey - commpage_populate -remove rdmsr :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [03]: algrey - cpu_topology_sort -disable _x86_validate_topology :: [OS: 10.13.6 | MatchOS: 10.13.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [04]: algrey - cpu_topology_sort -disable _x86_validate_topology (10.14.4+) :: [OS: 10.13.6 | MatchOS: 10.14.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [05]: xlnc - cpu_topology_sort -disable _x86_validate_topology :: [OS: 10.13.6 | MatchOS: 10.15.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [06]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [07]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [08]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [09]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [10]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [11]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [12]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 4 :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [13]: algrey - cpuid_set_cache_info - don't set cpuid_cores_per_package :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [14]: xlnc - cpuid_set_cache_info - don't set cpuid_cores_per_package :: [OS: 10.13.6 | MatchOS: 10.15.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [15]: xlnc - cpuid_set_cache_info - skip cpuid_cores_per_package test :: [OS: 10.13.6 | MatchOS: 10.15.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [16]: algrey - cpuid_set_generic_info - remove wrmsr :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [17]: algrey - cpuid_set_generic_info - set microcode=186 :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [18]: algrey - cpuid_set_generic_info - set flag=1 :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [19]: algrey - cpuid_set_generic_info - disable check to allow leaf7 :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [20]: algrey - cpuid_set_info - GenuineIntel to AuthenticAMD  :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [21]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [22]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [23]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [24]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [25]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [26]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [27]: algrey - cpuid_set_info - ryzen cores and logicals count :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [28]: algrey - cpuid_set_info - ryzen cores and logicals count :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [29]: algrey - cpuid_set_info - ryzen cores and logicals count :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [30]: xlnc - cpuid_set_info - ryzen cores and logicals count :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [31]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [32]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [33]: xlnc - cpuid_set_info - cores and threads calculations :: [OS: 10.13.6 | MatchOS: 10.15.0,10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [34]: algrey - i386_init - remove rdmsr (x3) :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x,10.15.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [35]: algrey - tsc_init - remove Penryn check to execute default case :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [36]: algrey - tsc_init - remove Penryn check to execute default case :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [37]: xlnc - tsc_init - remove Penryn check to execute default case :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [38]: xlnc - tsc_init - remove Penryn check to execute default case :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [39]: algrey - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [40]: algrey - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [41]: algrey - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [42]: xlnc - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [43]: xlnc - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [44]: xlnc - tsc_init - grab DID and VID from MSR :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [45]: algrey - tsc_init - skip test and go get FSBFrequency :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [46]: algrey - tsc_init - skip test and go get FSBFrequency :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [47]: algrey - tsc_init - skip test and go get FSBFrequency :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [48]: xlnc - tsc_init - skip test and go get FSBFrequency :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [49]: xlnc - tsc_init - skip test and go get FSBFrequency :: [OS: 10.13.6 | MatchOS: 10.15.0,10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [50]: algrey - lapic_init - remove version check and panic :: [OS: 10.13.6 | MatchOS: 10.13.x,10.14.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [51]: xlnc - lapic_init - remove version check and panic :: [OS: 10.13.6 | MatchOS: 10.15.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [52]: algrey - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G65,17G66] ==> allowed by build
+42:569  0:000   - [53]: algrey - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.13.6 | MatchBuild: 17G8030,17G8037] ==> not allowed by build
+42:569  0:000   - [54]: algrey - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [55]: xlnc - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.14.6 | MatchBuild: 18G95,18G103] ==> not allowed by build
+42:569  0:000   - [56]: xlnc - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.15.0 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [57]: xlnc - lapic_interrupt - skip checks and prevent panic :: [OS: 10.13.6 | MatchOS: 10.15.1 | MatchBuild: no] ==> not allowed by OS
+42:569  0:000   - [58]: algrey - mtrr_update_action - fix PAT :: [OS: 10.13.6 | MatchOS: 10.13.x | MatchBuild: no] ==> allowed by OS
+42:569  0:000   - [59]: algrey - mtrr_update_action - fix PAT (x2) (10.14.4+) :: [OS: 10.13.6 | MatchOS: 10.14.x,10.15.x | MatchBuild: no] ==> not allowed by OS
+42:569  0:000  Will not patch boot.efi
+42:569  0:000  === [ PatchSmbios ] =======================================
+42:569  0:000  insert table 9 for dev 0:0
+42:569  0:000  insert table 9 for dev 0:1
+42:569  0:000  insert table 9 for dev 0:0
+42:569  0:000  Table 11 present, but rewritten for us
+42:570  0:000  Trusting SMBIOS...
+42:570  0:000  Detected alternating SMBIOS channel banks
+42:570  0:000  Channels: 2
+42:570  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+42:570  0:000   partNum=HMA81GU6AFR8N-UH    
+42:570  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+42:570  0:000  BANK 0 DIMM0 2400MHz 8192MB
+42:570  0:000   partNum=KHX2400C15/8G       
+42:570  0:000  SMBIOS Type 17 Index = 1 => 1 2:
+42:570  0:000  BANK 1 DIMM0 2400MHz 8192MB
+42:570  0:000  mTotalSystemMemory = 16384
+42:570  0:000  NumberOfMemoryDevices = 2
+42:570  0:000  Type20[0]->End = 0xFFFFFF, Type17[1] = 0x4000
+42:570  0:000  === [ PatchACPI ] =========================================
+42:570  0:000  Xsdt reallocation done
+42:570  0:000  old FADT length=10C
+42:570  0:000   SignatureFixup: 0xFBA02FD1 -> 0x0
+42:570  0:000  Apply DsdtFixMask=0x00000000
+42:570  0:000     drop _DSM mask=0x0000
+42:570  0:000  === [ FixBiosDsdt ] =======================================
+42:570  0:000  Patching DSDT:
+42:570  0:000   - [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:570  0:000    0 replacements
+42:570  0:000  Warning! PCI root is not found!PreCleanup XSDT: count=31, length=284
+42:571  0:000  PreCleanup XSDT, corrected XSDT: count=31, length=284
+42:571  0:000  === [ ACPIDropTables ] ====================================
+42:571  0:000  Patching SSDT WN09    Length=35916
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(A093, SystemMemory, F8000000, ...)
+42:571  0:000  Patching SSDT WN09    Length=252
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Patching SSDT WN09    Length=3445
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(DGNS, SystemMemory, DFB78000, ...)
+42:571  0:000  Patching SSDT WN09    Length=36
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, the patch is too large!
+42:571  0:000    0 replacements
+42:571  0:000  Patching SSDT WN09    Length=4228
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Patching SSDT WN09    Length=19258
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(GSMM, SystemMemory, FED80000, ...)
+42:571  0:000  Found OperationRegion(GNVS, SystemMemory, DFB8BB18, ...)
+42:571  0:000  Found OperationRegion(OGNS, SystemMemory, DFB6D018, ...)
+42:571  0:000  Found OperationRegion(LUIE, SystemMemory, FEDC0020, ...)
+42:571  0:000  Found OperationRegion(CGIO, SystemMemory, FED81500, ...)
+42:571  0:000  Patching SSDT WN09    Length=1133
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(TNVS, SystemMemory, DF6E1000, ...)
+42:571  0:000  Found OperationRegion(CONA, SystemMemory, DF6E0000, ...)
+42:571  0:000  Patching SSDT WN09    Length=248
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(SMIC, SystemMemory, FED80360, ...)
+42:571  0:000  Patching SSDT WN09    Length=738
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(LGDN, SystemMemory, DFB6D398, ...)
+42:571  0:000  Patching SSDT WN09    Length=2924
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Patching SSDT WN09    Length=345
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Patching SSDT WN09    Length=5732
+42:571  0:000  0. [change PNP0C09 to PNPFFFF (prevent EC)]: pattern 41D00C09, bin not found / already patched!
+42:571  0:000    0 replacements
+42:571  0:000  Found OperationRegion(CPNV, SystemMemory, DFB7A018, ...)
+42:571  0:000  ApicCPUNum=8
+42:571  0:000  Cleanup XSDT: count=31, length=284
+42:571  0:000  corrected XSDT count=31, length=284
+42:571  0:000  === [ RestSetup macOS ] ===================================
+42:571  0:000  ATI injection not set
+42:571  0:000   RCBA disabled; cannot use it
+42:571  0:000  stringlength = 1052
+42:572  0:000  CurrentMode: Width=1920 Height=1080
+42:572  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: CB4BDF98
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: CB4BDF98
+42:594  0:022  Use origin smbios table type 1 guid.
+42:594  0:000  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+42:594  0:000  Extra kext: EFI\CLOVER\kexts\Other\RealtekRTL8111.kext (v.2.3.0d7)
+42:600  0:005  Skipping kext injection by OSBundleRequired : EFI\CLOVER\kexts\Other\RealtekRTL8111.kext
+42:600  0:000  Extra kext: EFI\CLOVER\kexts\Other\RealtekRTL8100.kext (v.2.0.1)
+42:606  0:005  Skipping kext injection by OSBundleRequired : EFI\CLOVER\kexts\Other\RealtekRTL8100.kext
+42:606  0:000  Extra kext: EFI\CLOVER\kexts\Other\AppleALC.kext (v.1.4.4)
+43:201  0:595  Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.3.5)
+43:235  0:034  Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext (v.1.0.0d2)
+43:251  0:015  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.0)
+43:268  0:017  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.3.5.2)
+43:286  0:017  SetStartupDiskVolume:
+43:286  0:000    * Volume: 'OS X Base System'
+43:286  0:000    * LoaderPath: '\System\Library\CoreServices\boot.efi'
+43:286  0:000    * DevPath: OS X Base System
+43:286  0:000    * GUID = <null guid>
+43:286  0:000  Custom boot screen not used because entry has unset use graphics
+43:298  0:011  Closing log
